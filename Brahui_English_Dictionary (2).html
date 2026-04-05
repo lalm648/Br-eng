@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brahui â€“ English Dictionary</title>
+<script src="speak-map.js" defer></script>
+<script src="index.js" defer></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="logo">
+      <div class="logo-icon">ðŸ“–</div>
+      <h1>Brahui â€“ English Dictionary</h1>
+    </div>
+    <span class="total-badge" id="result-badge">3,345 entries</span>
+  </div>
+  <div class="search-wrap">
+    <span class="search-icon">ðŸ”</span>
+    <input type="text" id="search" placeholder="Search Brahui word or English meaningâ€¦" autocomplete="off" spellcheck="false">
+    <button id="clear-btn">âœ• clear</button>
+  </div>
+  <div class="filter-row" id="gram-chips"></div>
+</header>
+
+<main>
+  <div class="toolbar">
+    <div id="stats"></div>
+    <div class="view-btns">
+      <button class="view-btn active" id="list-btn" title="List view">â˜° List</button>
+      <button class="view-btn" id="grid-btn" title="Grid view">âŠž Grid</button>
+    </div>
+  </div>
+  <div id="results"></div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+
+</body>
+</html>
