@@ -196,7 +196,7 @@ const ALL = [
     origin: null,
   },
   { word: "asi-vár", gram: "adv", english: "once", origin: null },
-  { word: "asitf", gram: "num", english: "one", origin: null },
+  { word: "asit", gram: "num", english: "one", origin: null },
   { word: "asitti", gram: "n", english: "unity", origin: null },
   {
     word: "assalam alekum",
